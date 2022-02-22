@@ -1,0 +1,27 @@
+/* 
+
+*{
+    box-sizing: border-box;                     * is the universal selector. Does not apply to pseudo elements like before and or after
+}
+
+display: inline-block;
+
+inline elements like span do not respect block size properties like width or height. Must use display property
+*/
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+  padding: 20px;
+  border: 10px solid orange;
+  margin: 50px;
+}
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: lightskyblue;
+  padding: 20px;
+  border: 10px solid red;
+  box-sizing: border-box;
+}
