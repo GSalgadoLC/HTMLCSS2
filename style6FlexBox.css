@@ -1,0 +1,49 @@
+body {
+  margin: 10px;
+}
+
+.container {
+  padding: 10px;
+  border: 5px solid lightgreen;
+}
+
+.scontainer {
+  border: 3px solid dodgerblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  align-content: center;
+  height: 90vh;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+  background: gold;
+  margin: 1rem;
+}
+
+.sscontainer {
+  border: 3px solid dodgerblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  height: 50vh;
+}
+
+.boxx {
+  flex-basis: 10rem;
+
+  width: 5rem;
+  height: 5rem;
+  background: pink;
+  margin: 1rem;
+}
+.box-one {
+  flex-grow: 5;
+  align-self: flex-start;
+}
