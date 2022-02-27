@@ -1,0 +1,38 @@
+body {
+  margin: 10px;
+}
+.container {
+  display: grid;
+  grid-template: 100px auto 100px / 330fr 70fr;
+  grid-template-areas: "header header" " sidebar main " "footer footer";
+  border: 3px solid lightgrey;
+  align-items: stretch;
+  justify-items: stretch;
+  row-gap: 10px;
+  column-gap: 10px;
+  height: 100vh;
+}
+.notes {
+  padding: 5px;
+  border: 3px solid darkblue;
+}
+
+.box {
+  background-color: aqua;
+}
+
+.n1 {
+  grid-column: 1/3;
+}
+
+.n4 {
+  grid-area: footer;
+}
+
+.first {
+  display: none;
+}
+
+.firstvisibility {
+  visibility: hidden;
+}
