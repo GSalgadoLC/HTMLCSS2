@@ -1,0 +1,29 @@
+html {
+  /* 62.5% of 16px = 10px */
+  font-size: 62.5%;
+}
+
+body {
+  margin: 10px;
+  width: 600px;
+}
+
+.page {
+  margin: -10px;
+  width: 100vw;
+  height: 100vh;
+  background-color: lightpink;
+}
+.box {
+  width: 50%; /* THIS IS IN REGARD TO THE PARENT ELEMENT */
+  height: 100vh;
+  background-color: lightblue;
+  border-top: 3px solid orange;
+}
+.box2 {
+  /* (em) 10 x font size of the current element. Browser factory set font size is 16px */
+  /* (rem) is 10 x the font size of the root element aka 16px */
+  width: 10rem;
+  height: 50vh;
+  background-color: aqua;
+}

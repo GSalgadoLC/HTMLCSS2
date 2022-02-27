@@ -1,0 +1,67 @@
+body {
+  margin: 10px;
+  height: 420vh; /* this makes page longer */
+}
+.boxes {
+  border: 3px solid lightblue;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+}
+
+.n1 {
+  background-color: lightcoral;
+}
+
+.n2 {
+  background-color: lightgreen;
+  position: relative;
+  left: 4rem;
+  top: 1rem;
+  z-index: -1;
+}
+
+.n3 {
+  background-color: lightslategray;
+}
+/*-------------------------------------------------------------*/
+
+.boxesboxes {
+  border: 3px solid lightblue;
+  position: relative;
+}
+
+.boxbox {
+  width: 5rem;
+  height: 5rem;
+}
+
+.n11 {
+  background-color: lightcoral;
+}
+
+.n22 {
+  background-color: lightgreen;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 420;
+}
+
+.n33 {
+  background-color: lightslategray;
+}
+
+.n44 {
+  width: 80vw;
+  background-color: rgb(92, 160, 228);
+  position: fixed;
+  bottom: 0;
+}
+
+p {
+  font-size: 15px;
+  text-align: center;
+}
