@@ -1,0 +1,27 @@
+body {
+  margin: 10px;
+}
+.box {
+  border: 5px solid lightblue;
+}
+.tweet {
+  border: 3px solid lightcoral;
+  overflow: hidden;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.avatar {
+  width: 5rem;
+  height: 5rem;
+  background-color: rgb(116, 146, 155);
+  float: left;
+  margin-right: 0.5rem;
+}
+
+.clear {
+  clear: left;
+}
