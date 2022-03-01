@@ -1,0 +1,42 @@
+body {
+  margin: 10px;
+  padding: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.box-one {
+  background-color: gold;
+  padding: 1rem;
+}
+.box-two {
+  background-color: dodgerblue;
+  padding: 1rem;
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .box-one {
+    background-color: blueviolet;
+  }
+  .container {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .box-two {
+    background-color: rgb(172, 17, 164);
+  }
+  .container {
+    flex-direction: row;
+  }
+}
+
+@media print {
+  body {
+    font-size: 16px;
+  }
+  .box {
+    background-color: aqua;
+  }
+}
