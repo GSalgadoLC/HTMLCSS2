@@ -1,0 +1,45 @@
+body {
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+  margin: 3rem 0 1rem;
+}
+
+p {
+  width: 50ch;
+  text-align: left;
+}
+
+p + p {
+  text-indent: 1rem;
+}
+
+p + p + p + p {
+  text-decoration: underline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+p + p + p + p + p {
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+h4 {
+  width: 50ch;
+  column-count: 3;
+  font-weight: normal;
+  column-gap: 2rem;
+  column-rule: 3px solid #999;
+  direction: rtl;
+}
