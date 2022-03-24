@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drop Down, Check Box, Radio</title>
+  </head>
+  <body>
+    <h1>Drop Down Menu</h1>
+    <form>
+      <select multiple>
+        <optgroup label="Main Courses">
+          <option>Select a meal...</option>
+          <option value="1">Pizza</option>
+          <option value="2">Tacos</option>
+          <option value="3">Burgers</option>
+          <option value="4">Ramen</option>
+        </optgroup>
+        <optgroup label="Desserts"></optgroup>
+        <option value="5">Ice cream</option>
+        <option value="6">Cake</option>
+        <option value="7">Pie</option>
+      </select>
+    </form>
+    <h1>Check boxes</h1>
+    <form>
+      <div>
+        <input type="checkbox" id="front-end" />
+        <label class="label-inline" for="front-end">front</label>
+      </div>
+      <div>
+        <input type="checkbox" id="mid-end" />
+        <label class="label-inline" for="midt-end">mid</label>
+      </div>
+      <div>
+        <input type="checkbox" id="back-end " checked />
+        <label class="label-inline" for="back-end">back</label>
+      </div>
+    </form>
+    <h1>Radio Buttons</h1>
+    <form>
+      <div>
+        <input type="radio" name="Commodity" id="Gold" />
+        <label for="Gold" class="label-inline">Gold</label>
+      </div>
+      <div>
+        <input type="radio" name="Commodity" id="Natural Gas" />
+        <label for="Natural Gas" class="label-inline">Natural Gas</label>
+      </div>
+      <div>
+        <input type="radio" name="Commodity" id="Coffee" />
+        <label for="Coffee" class="label-inline">Coffee</label>
+      </div>
+      <div>
+        <input type="radio" name="Commodity" id="silver" />
+        <label for="silver" class="label-inline">Silver</label>
+      </div>
+    </form>
+  </body>
+</html>

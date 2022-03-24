@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Slider, File input, Grouping Related fields, Hidden, Data Validation, Form
+      Submit
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/0198127aae.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h1>Slider</h1>
+    <form>
+      <input type="range" min="0" max="100" value="42" />
+    </form>
+    <h1>File Input</h1>
+    <form>
+      <input type="file" multiple accept=".jpg, .png, .css, audio/*" />
+    </form>
+    <h1>Grouping relating fields</h1>
+    <form>
+      <fieldset>
+        <legend>Billing Address</legend>
+        <input type="text" placeholder="Street" />
+        <input type="text" placeholder="City" />
+        <input type="text" placeholder="State" />
+      </fieldset>
+      <fieldset>
+        <legend>Payment</legend>
+        <input type="text" placeholder="Card Number" />
+        <input type="text" placeholder="CCV" />
+        <input type="text" placeholder="ZIP" />
+      </fieldset>
+    </form>
+    <h1>Hidden Field</h1>
+    <form>
+      <input type="hidden" name="course-id" value="1234" />
+    </form>
+    <h1>Data Validation</h1>
+    <form>
+      <input type="text" required minlength="5" maxlength="10" />
+      <button type="submit">Submit</button>
+    </form>
+    <h1>Form Submit</h1>
+    <form action="https://formspree.io/f/mrgjazqp" method="post">
+      <input type="text" placeholder="Name" name="Name" />
+      <input type="email" placeholder="Email" name="Email" />
+
+      <button type="submit">
+        <i class="fas fa-alert"></i>
+        Submit
+      </button>
+    </form>
+    <p>
+      Server side technologies: Node/Express, Django, ASP.NET, Laravel, Ruby on
+      Rails
+    </p>
+    <p>formspree.io</p>
+  </body>
+</html>
