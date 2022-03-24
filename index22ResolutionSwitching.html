@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ResolutionSwitching</title>
+    <link rel="stylesheet" href="/CSS/style22ResolutionSwitching.css" />
+  </head>
+  <body>
+    <img
+      src="/CSS/Images/meal.jpg"
+      alt="Salmon Bowl"
+      class="meal"
+      srcset="
+        /CSS/Images/meal@.jpg    400w,
+        /CSS/Images/meal@2x.jpg  800w,
+        /CSS/Images/meal@3x.jpg 1200w
+      "
+      sizes="
+      (max-width: 500px) 100vw,
+      (max-width: 700px) 50vw,
+      33vw
+      "
+    />
+    <p>
+      Resolution switching would make device resize and work more. The solution
+      is to provide multiple images based on browser size
+    </p>
+    <p>responsive breakpoints.com google</p>
+    <a href="https://google.com">Google</a>
+  </body>
+</html>
