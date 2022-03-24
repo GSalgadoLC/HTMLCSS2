@@ -1,0 +1,25 @@
+.Nature {
+  clip-path: circle(50% at 50% 50%);
+}
+
+.one {
+  filter: grayscale(70%);
+}
+
+.two {
+  filter: saturate(170%);
+}
+
+.three:hover {
+  filter: blur(10px);
+}
+
+.four {
+  filter: invert();
+}
+
+.yellow {
+  filter: invert();
+  width: 700px;
+  height: 700px;
+}
