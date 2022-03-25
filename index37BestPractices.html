@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Writing clean, Maintainble CSS</title>
+    <link rel="stylesheet" href="/CSS/style37CleanCSS.css" />
+  </head>
+  <body>
+    <h1>Best Practices</h1>
+    <h2>Follow a naming convention</h2>
+    <p>Kebob case .nav-bar</p>
+    <p>Camel case: .navBar</p>
+    <p>Pascal case: .NavBar</p>
+    <p>UnderLine: .nav_bar</p>
+    <h2>Create logical sections in your stylesheet</h2>
+    <p>Basic styles on top.HTML, Body</p>
+    <p>Typography: H1, H2, P, Fonts</p>
+    <p>Forms</p>
+    <p>Navigation Bar</p>
+    <h2>Avoid over-specific selectors</h2>
+    <p>
+      Hard to maintain overtime and can be confusing when encountering errors
+    </p>
+    <p>
+      Leaking can happen where previous code applies to new code that does not
+      need certain css styles
+    </p>
+    <h2>Avoid the !important key word</h2>
+    <h2>Take advantage of style inheritance</h2>
+    <h2>Extract repititive patterns</h2>
+    <h2>Avoid repetitive values(Keep it DRY)</h2>
+    <h1>Variables</h1>
+    <div class="one">Lorem ipsum dolor sit amet.</div>
+    <div class="two">Lorem ipsum dolor sit amet.</div>
+    <h1>Object Oriented CSS</h1>
+    <p>Object oriented programming is the process of reusable components</p>
+    <p>OOCSS is clean and dry</p>
+    <h2>Separate container and content</h2>
+    <h2>Separate structure and skin</h2>
+    <div class="NEW">
+      <header class="hero">
+        <button class="btn btn-primary">Sign Up</button>
+      </header>
+      <aside class="side-bar">
+        <button class="btn btn-secondary">Contact</button>
+      </aside>
+    </div>
+    <h1>BEM</h1>
+    <p>Block Element Modifier</p>
+    <p>Think of web page as a bunch of blocks/module</p>
+    <p>LEGO mindset</p>
+    <p>Card like header, body, footer</p>
+    <p>double hyphen to separate block from modifier</p>
+    <p>double underscore to separate block from element</p>
+    <div class="BEM">
+      <div class="CARD card--popular">
+        <header class="card_header">
+          <span class="card_price"></span>
+        </header>
+        <div class="body">
+          <button class="btn"></button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
