@@ -1,0 +1,32 @@
+body {
+  margin: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: dodgerblue;
+}
+
+.rectangle {
+  width: 100px;
+  height: 100px;
+  background: hotpink;
+}
+
+.container:hover {
+  perspective: (200px);
+  transform-origin: 0 50%;
+}
+
+.container:hover .rectangle {
+  transform: rotateY(-50deg);
+}
+
+.container:hover .box {
+  transform: rotateY(50deg);
+}
